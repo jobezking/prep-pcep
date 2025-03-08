@@ -1,3 +1,4 @@
+# conditionals if-elif else, for, while loops plus try-catch intro
 #Difficulty menu if-elif-else example
 difficulty = input("Choose '1' for 'Easy', '2' for 'Normal', '3' for 'Hard', or '4' for 'Expert:")
 dif = int(difficulty)
