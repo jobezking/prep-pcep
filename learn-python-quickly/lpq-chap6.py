@@ -1,13 +1,13 @@
 #Difficulty menu if-elif-else example
 difficulty = input("Choose '1' for 'Easy', '2' for 'Normal', '3' for 'Hard', or '4' for 'Expert:")
-diff == int(difficulty)
-if diff == 1:
+dif = int(difficulty)
+if dif == 1:
     print("Easy difficulty chosen.")
-elif diff == 2:
+elif dif == 2:
     print("Normal difficulty chosen.")
-elif diff == 3:
+elif dif == 3:
     print("Hard difficulty chosen.")
-elif diff == 4:
+elif dif == 4:
     print("Expert difficulty chosen.")
 else:
     print("Please enter a valid difficulty.")
