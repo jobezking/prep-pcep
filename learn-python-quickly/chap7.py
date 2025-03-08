@@ -1,3 +1,4 @@
+#functions, modules, paths for file access
 '''
 Normal global variables are simply declared outside functions.
 Use the global keyword to declare a global variable inside function.
