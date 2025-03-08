@@ -1,3 +1,4 @@
+#command line input and print
 favorite_food = input("What is your favourite food?:") #command line prompt
 print('''By using triple quotes we can 
 divide our print statement onto multiple lines, 
