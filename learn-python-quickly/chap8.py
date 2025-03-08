@@ -22,6 +22,10 @@ class Employee2:
     def setrole(cls, newrole):                      #class method that takes parameters. similar to init but uses cls instead of self
         cls.role = newrole
 
+    @staticmethod
+    def num_employees(employee_list):               # static method. Does not access class data or methods. used for factory methods.
+        return len(employee_list)
+
 emails = {'Joe Doe': 'jdoe@x.com', 'Jane Doe': 'doj@y.com', 'Sal Lee': 'sl@u.com', 'Tom Mix': 'tm@c.com'}
 
 employees = []                              # create blank list for employee objets
@@ -33,3 +37,5 @@ for key in emails:                          # iterate through dictionary
 
 for employee in employees:                  # iterate through resulting list
     print(f"N: {employee.getn()} E: {employee.gete()} R: {employee.getr()} L: {employee.getl()}")
+
+print(f"{employees[0].num_employees(employees) } employees total") # never do this. just an example of class method
