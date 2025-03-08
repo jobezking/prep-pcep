@@ -44,19 +44,19 @@ while counter <= 5:
 else:
     print("While loop over")
 #Break/continue
-fruit_list = ['mango', 'lemon', 'banana', 'apple', 'cherry', 'watermelon', 'orange']   
-for fruit in fruit_list:    
-    print(fruit)    
-    if(fruit=='apple'):    
-        print("Apple is in the list")    
-        break   
+fruit_list = ['mango', 'lemon', 'banana', 'apple', 'cherry', 'watermelon', 'orange']
+for fruit in fruit_list:
+    print(fruit)
+    if(fruit=='apple'):
+        print("Apple is in the list")
+        break 
 print("Loop ended")
 
 print("Printing only odd numbers") 
 num_list = [24, 46, 21, 35, 62, 12, 19, 38, 20] 
-for i in num_list:     
-    if i%2 == 0:         
-        continue     
+for i in num_list:
+    if i%2 == 0:
+        continue
     print(i)
 #try/except
 value = input("Enter divisor")
@@ -69,13 +69,13 @@ except:
 #Errors
 '''
 ValueError - Used when a value is of the incorrect type. For instance, it can be used when a value entered by the user needs to be converted into an integer, 
-    but the user has entered an incompatible string.   
-ZeroDivisionError - This error is triggered when trying to divide zero, which is impossible.   
-ImportError - This error is triggered when Python has been instructed to import a module, but the module cannot be found or otherwise cannot be imported successfully.   
+    but the user has entered an incompatible string.
+ZeroDivisionError - This error is triggered when trying to divide zero, which is impossible. 
+ImportError - This error is triggered when Python has been instructed to import a module, but the module cannot be found or otherwise cannot be imported successfully. 
 IOError - This Input/Output error notification occurs when an I/O operation cannot complete. 
-    For instance, this error would trigger when an open() command is called, but the provided file cannot be found.   
-Index Error - This IndexError occurs when a provided sequence index is out of the range of the sequence that has been provided.   
-KeyError - This error is triggered when a dictionary key is provided, but the provided key does not exist or can’t be found within the dictionary.   
-TypeError - This error occurs when some function or operation has been applied to a data type but the operation cannot be carried out successfully.   
-NameError - This occurs when a designated variable name isn’t found.
+    For instance, this error would trigger when an open() command is called, but the provided file cannot be found.
+Index Error - This IndexError occurs when a provided sequence index is out of the range of the sequence that has been provided.
+KeyError - This error is triggered when a dictionary key is provided, but the provided key does not exist or can't be found within the dictionary.
+TypeError - This error occurs when some function or operation has been applied to a data type but the operation cannot be carried out successfully. 
+NameError - This occurs when a designated variable name isn't found.
 '''
