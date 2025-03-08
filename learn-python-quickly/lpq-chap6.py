@@ -16,7 +16,7 @@ iterable = [2,4,6]
 cats = ['Kitana', 'Fluffy', 'Ben', 'Cookie']
 for x in iterable:
     print(x)
-for cat in cats"
+for cat in cats:
     print(cat + "has been fed")
 #traditional for loop where you execute a counter
 for a in range(0, 10):  #can also be range(0, 10, 2) where 2 is interval or step
