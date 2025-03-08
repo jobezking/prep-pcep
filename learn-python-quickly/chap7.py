@@ -42,6 +42,6 @@ import divmodcp as dvcp
 print(f"The results are {dvcp.divmod_func(3,3)} and {dvcp.div_by_3(9)}")
 
 #this is full path
-sys.path.append(os.path.join(os.path.dirname(__file__), '/home/jeking/learnpy/prep-pcep/learn-python-quickly/testmod2'))
+sys.path.append(os.path.join(os.path.dirname(__file__), '/home/username/learnpy/prep-pcep/learn-python-quickly/testmod2'))
 import divmodcp2 as dvcp2 
 print(f"The results are {dvcp2.divmod_func(3,3)} and {dvcp2.div_by_3(9)}")
