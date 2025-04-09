@@ -6,3 +6,5 @@ Language: means and tool for expressing and recording thoughts.
 Machine language: rudimentary computer language (developed by humans)
 instruction list: complete known set of commands, also called IL. Size of computer instruction lists vary, and the instructions themselves vary.
 Natural languages: developed naturally, still evolving with words created and disappearing, human languages are examples.
+Source code: program written in high level language (in contrast to machine code executed by computers)
+Source file: file containing source code
