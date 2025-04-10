@@ -38,3 +38,31 @@ Disadvantages
 1. slower due to interpreter and code sharing computing power
 2. the end user will need to have the interpreter installed
 scripting languages: old name for interpreted languages. Scripts: programs written in interpreted/scripted languages
+Guido van Rossum from Haarlem, Netherlands: created Python, which is now mature and trustworthy. Goals:
+1. easy and intuitive while just as powerful as competitors
+2. open source so anyone can contribute to its development
+3. code as understandable as plain English
+4. suitable for everyday tasks allowing for short development times
+Benefits:
+1. easy to learn
+2. easy to teach
+3. easy to use for writing new software
+4. easy to understand the code of others
+5. easy to obtain, install and deploy (free, open and multiplatform)
+Python rivals:
+1. Perl: scripting language created by Larry Wall. More traditional and conservative than Python; resembles C-derived languages
+2. Ruby: scripted language crated by Yukihiro Matsumoto. More innovative with more fresh ideas than Python
+Python uses: internet services i.e. search engines, cloud storage and tools, social media. Developing tools. Everyday use applications. Scientists, project testers.
+Why not Python:
+1. low level "close to metal" programming i.e. driver or graphics engine
+2. applications for mobile devices
+Python 2 is no longer being developed. Python 3 and Python 2 are different languages. Cannot automatically update Python 2 code to Python 3
+CPython: traditional implementation of Python. Implementation: program or environment which gives support for execution of programs written in Python.
+Canonical or reference Pythons: maintained by Python Software Foundation (PSF). All other implementations should follow PSF standards. 
+Python has been written in C from the beginning (easy porting and migration to all platforms able to run C). PSF implementation referred to as CPython
+Cython: addresses Python's inefficiency by writing code in Python and translating it into C so that it will run faster
+Jython: Python using Java instead of C to communicate with existing Java infrastructure where incorporating C would be difficult. Python 2 version only.
+PyPy: Python environment written in RPython (restricted Python, a subset of Python). Source code is not interpreted but translated into C and executed. Used for developing the Python language itself
+MicroPython: efficient open source implementation optimized to run on microcontrollers. Includes small subset of Python Standard Library but with a large number of features i.e. interactive prompt, arbitrary precision integers, modules that give programmer access to low level hardware. Dev board is called pyboard.
+CircuitPython: derivative of MicroPython
+IDLE: Integrated Development and Learning Environment
