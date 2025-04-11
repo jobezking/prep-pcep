@@ -45,5 +45,7 @@ Priorities:
 2. +, - unary
 3. *,/,//,%
 4. +, - binary
+5. <, <=, >, >+
+6. ==, !=
 When multiple operators have the same priority, rely on binding order
 Parenthesis can change order as values in parenthesis are calculated first
