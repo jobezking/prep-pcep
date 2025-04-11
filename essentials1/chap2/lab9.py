@@ -5,3 +5,6 @@ print(a-b)
 print(a*b)
 print(a/b)
 print("\nThat's all folks!")
+print(2 * "5")
+x = 3
+y = 1./(x + 1./(x + 1./x))
