@@ -1,0 +1,7 @@
+a = float(input("Enter variable a: "))
+b = float(input("Enter variable b: "))
+print(a+b)
+print(a-b)
+print(a*b)
+print(a/b)
+print("\nThat's all folks!")
