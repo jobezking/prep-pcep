@@ -40,6 +40,7 @@ Due to left bindings, most Python mathematical expressions evaluate left to righ
 9 % 6 % 2 when left to right is 1 ( 9 % 6 is 3, 3 % 2 is 1)
 9 % 6 % 2 when right to left is divide by zero error ( 6 % 2 is 0, 9 % 0 is undefined)
 Exception: exponents have righ-sided bindings
+
 Priorities:
 1. **
 2. +, - unary
