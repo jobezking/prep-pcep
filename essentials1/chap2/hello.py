@@ -13,3 +13,7 @@ print("'Greg's book.'")
 print('"Greg\'s book."')
 print("Greg\'s book.")
 #print('"Greg's book."') #SyntaxError: unterminated string literal  
+print(True > False)
+print(True < False)
+print(-2.1 - 2)
+print(9%6%2)
