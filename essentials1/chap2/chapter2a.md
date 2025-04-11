@@ -17,3 +17,4 @@ Comments are important when you are reading your own code and when others read y
 Input function: switches console to input mode. An argument with the input function sends the content to the screen as text.
 The input function returns a string. 
 Data can be transformed from one type to another by type casting
+string * integer multiplies the string. string + string concatenates the string
