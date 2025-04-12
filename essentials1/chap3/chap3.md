@@ -9,3 +9,9 @@ Conditional Statement must contain in this order:
 3. an expression (question or answer) whose value will be solely interpreted as true for false
 4. a colon followed by a newline
 5. indented instruction or set of instructions, either 4 spaces of indentation or a tab (cannot mix spaces and tabs for indentation)
+Infinite loop example!
+while True:
+    print("I am stuck inside a loop.")
+
+while number: is the same as while number != 0:
+if number % 2 == 1: is the same as if number %2:
