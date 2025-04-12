@@ -42,11 +42,21 @@ Due to left bindings, most Python mathematical expressions evaluate left to righ
 Exception: exponents have righ-sided bindings
 
 Priorities:
-1. **
-2. +, - unary
-3. *,/,//,%
+1. ~, +, - unary
+2. **
+3. *, /, //, %
 4. +, - binary
-5. <, <=, >, >+
-6. ==, !=
+5. << >> binary shift
+6. <, <=, >, =>
+7. ==, !=
+8. &
+9. |
+10. =, +=, -=, *=, /=, %=, &=, ^=, |=, >>=, <<=
+
+Bitwise operators:
+& (conjunction, AND)
+| (disjunction, OR)
+~ (negation, NOT)
+^ (exclusive or)
 When multiple operators have the same priority, rely on binding order
 Parenthesis can change order as values in parenthesis are calculated first
