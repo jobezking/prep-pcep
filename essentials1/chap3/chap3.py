@@ -15,3 +15,9 @@ print(numbers[-4])
 print(numbers[-5])
 print(numbers[-len(numbers)])
 print(numbers[-len(numbers) + 1])
+numbers.append(3)
+numbers.insert(-2, 4)
+for j in numbers:
+    print(j)
+for j in range(len(numbers)):
+    print(j)
