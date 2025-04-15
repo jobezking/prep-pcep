@@ -6,3 +6,8 @@ index: value inside the brackets which selects one element of list
 indexing: operation of selecting an element from list
 len(): returns length of list
 del list[index]: deletes an element from a list according to its index number i.e. del meals[3]
+method: special kind of function
+function: doesn't belong to data and is onwed by the whole code
+method: owned by data it forks for. Name of method is data name, dot, method name, parenthesis
+append: adds new element at end of the list
+insert(location, value)
