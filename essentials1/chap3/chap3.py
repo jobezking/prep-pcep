@@ -8,3 +8,22 @@ floats = [10., 5., 7., 2., 1.]
 characs = ['a','b', 'c', 'd', 'e']
 a_list = [numbers, ints, floats, characs]
 print(a_list)
+
+#bubble sort
+#method 1 ... does not work!
+my_list = [8, 10, 6, 2, 4]
+for i in range(len(my_list) - 1):
+    if my_list[i] > my_list[i + 1]:
+        my_list[i], my_list[i + 1] = my_list[i + 1], my_list[i]
+print(my_list)
+
+my_list = [8, 10, 6, 2, 4]
+swapped = True
+
+while swapped:
+    swapped = False
+    for i in range(len(my_list) - 1):
+        if my_list[i] > my_list[i + 1]:
+            swapped = True
+            my_list[i], my_list[i + 1] = my_list[i + 1], my_list[i]
+print(my_list)
