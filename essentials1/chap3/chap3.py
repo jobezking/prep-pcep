@@ -5,7 +5,7 @@ print(var == 1) # True
 numbers = [1, 2, 3, 4, 5]
 ints = [10, 5, 7, 2, 1]
 floats = [10., 5., 7., 2., 1.]
-characs = ['a','b', 'c', 'd', 'e']
+characs = ['a','b', 'c', 'd', 'e'] 
 a_list = [numbers, ints, floats, characs]
 print(a_list)
 <<<<<<< HEAD
