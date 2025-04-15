@@ -8,7 +8,19 @@ floats = [10., 5., 7., 2., 1.]
 characs = ['a','b', 'c', 'd', 'e'] 
 a_list = [numbers, ints, floats, characs]
 print(a_list)
-<<<<<<< HEAD
+print(numbers[-1])
+print(numbers[-2])
+print(numbers[-3])
+print(numbers[-4])
+print(numbers[-5])
+print(numbers[-len(numbers)])
+print(numbers[-len(numbers) + 1])
+numbers.append(3)
+numbers.insert(-2, 4)
+for j in numbers:
+    print(j)
+for j in range(len(numbers)):
+    print(j)
 
 #bubble sort
 #method 1 ... does not work!
@@ -28,18 +40,3 @@ while swapped:
             swapped = True
             my_list[i], my_list[i + 1] = my_list[i + 1], my_list[i]
 print(my_list)
-=======
-print(numbers[-1])
-print(numbers[-2])
-print(numbers[-3])
-print(numbers[-4])
-print(numbers[-5])
-print(numbers[-len(numbers)])
-print(numbers[-len(numbers) + 1])
-numbers.append(3)
-numbers.insert(-2, 4)
-for j in numbers:
-    print(j)
-for j in range(len(numbers)):
-    print(j)
->>>>>>> refs/remotes/origin/main
