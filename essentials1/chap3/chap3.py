@@ -40,3 +40,14 @@ while swapped:
             swapped = True
             my_list[i], my_list[i + 1] = my_list[i + 1], my_list[i]
 print(my_list)
+
+my_list = [8, 10, 6, 2, 4]
+my_list.sort()
+my_list.reverse()
+
+list1 = [1]
+list2 = list1
+list1[0] = 2
+print(list2)  # will output 2 as list2 and list1 refer to the same pointer
+mylist = my_list[:] # copies my_list
+print(mylist)
