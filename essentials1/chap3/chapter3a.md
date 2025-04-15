@@ -17,3 +17,4 @@ slicing: creates new list with format [:] to copy entire list and [start:end-1] 
 in and not in operators: checks to see if a value is in or not in a list and returns True or False. Ideal with conditionals, loops etc
 2D array: create with
 two_d_array = [[EMPTY for i in range[7] for j in range[7]]
+tuple: a_tuple=(1,2,3,4,5) #immutable

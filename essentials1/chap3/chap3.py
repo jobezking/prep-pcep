@@ -51,3 +51,4 @@ list1[0] = 2
 print(list2)  # will output 2 as list2 and list1 refer to the same pointer
 mylist = my_list[:] # copies my_list
 print(mylist)
+print(my_list * 3)
